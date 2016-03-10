@@ -1,7 +1,7 @@
 ####16SrpoB 
->is a small package that takes a given sanger sequenced 16S or rpoB bacterial gene sequences to classify through a phylogenetic by identifying 20 most closely related known characterized sequences in the databases. 000_sanger_seq2report.pl is the top level script that calls remaining dependencies, tools and scripts to perform thejob.
+>16SrpoB is a package developed at USDA-VS for bacterial diognistics and classification. The toplevel perl script takes a given sequence of 16S or rpoB newly sequenced bacterial gene sequences to classify and phylogenetically by identifying the 20 most closely related characterized known sequences in the databases. 000_sanger_seq2report.pl is the top level script that calls remaining dependencies, tools and databases to perform thefunction and gives a USDA-VS certified report.
 #####Needs following dependencies to be installed before running the software
-######1. ncbi-blast-2.2.29+
+######1. ncbi-blast-2.2.29+ needs to be installed
 	>+ should be available from /usr/local/bin
 ######2. Following software should be available /home/shared/VIJAY/TOOLS folder (Ask for this folder)
 	>+ 16S_logo.png
