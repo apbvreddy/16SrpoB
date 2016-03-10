@@ -1,8 +1,8 @@
-##000_sanger_seq2report.pl
-###Needs following dependencies to be installed before running the software
-####1. ncbi-blast-2.2.29+
+###000_sanger_seq2report.pl
+####Needs following dependencies to be installed before running the software
+#####1. ncbi-blast-2.2.29+
 	+ should be available from /usr/local/bin
-####2. Following software present in the /home/shared/VIJAY/TOOLS folder
+#####2. Following software present in the /home/shared/VIJAY/TOOLS folder
 	+ clustalo
 	+ clustalo-1.2.0-Ubuntu-x86_64
 	+ clustalw2
@@ -12,7 +12,7 @@
 	+ muscle3.8.31_i86linux64
 	+ usearch8
 	+ usearch8.0.1616_i86linux32
-####3. Following Blast DataBases/Files
+#####3. Following Blast DataBases/Files
 	+ 16SMicrobial_lpsnmyco_dr.fna
 	+ 16SMicrobial_lpsnmyco_dr.tit
 	+ 16SMicrobial_lpsnmyco_dr Blastdb
