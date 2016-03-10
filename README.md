@@ -1,61 +1,28 @@
-000_sanger_seq2report.pl
-========================
-Needs following dependencies to be installed before running the software
+#000_sanger_seq2report.pl
+#========================
+##Needs following dependencies to be installed before running the software
 1. ncbi-blast-2.2.29+
-	should be available from /usr/local/bin
+	+ should be available from /usr/local/bin
 2. Following software present in the /home/shared/VIJAY/TOOLS folder
-	clustalo
-	clustalo-1.2.0-Ubuntu-x86_64
-	clustalw2
-	combine_two_files_column_wise.pl
-	f2f_multi_rec_seq_to_one_rec_seq.pl
-	f2f_one_seq_rec_to_multiple_seq_rec.pl
-	muscle3.8.31_i86linux64
-	usearch8
-	usearch8.0.1616_i86linux32
+	+ clustalo
+	+ clustalo-1.2.0-Ubuntu-x86_64
+	+ clustalw2
+	+ combine_two_files_column_wise.pl
+	+ f2f_multi_rec_seq_to_one_rec_seq.pl
+	+ f2f_one_seq_rec_to_multiple_seq_rec.pl
+	+ muscle3.8.31_i86linux64
+	+ usearch8
+	+ usearch8.0.1616_i86linux32
 3. Following Blast DataBases/Files
-	16SMicrobial_lpsnmyco_dr.fna
-	16SMicrobial_lpsnmyco_dr.log
-	16SMicrobial_lpsnmyco_dr.nhd
-	16SMicrobial_lpsnmyco_dr.nhi
-	16SMicrobial_lpsnmyco_dr.nhr
-	16SMicrobial_lpsnmyco_dr.nin
-	16SMicrobial_lpsnmyco_dr.nog
-	16SMicrobial_lpsnmyco_dr.nsd
-	16SMicrobial_lpsnmyco_dr.nsi
-	16SMicrobial_lpsnmyco_dr.nsq
-	16SMicrobial_lpsnmyco_dr.tit
-	cultured_ABF_98piduniq.fna
-	cultured_ABF_98piduniq.log
-	cultured_ABF_98piduniq.nhd
-	cultured_ABF_98piduniq.nhi
-	cultured_ABF_98piduniq.nhr
-	cultured_ABF_98piduniq.nin
-	cultured_ABF_98piduniq.nog
-	cultured_ABF_98piduniq.nsd
-	cultured_ABF_98piduniq.nsi
-	cultured_ABF_98piduniq.nsq
-	cultured_ABF_98piduniq.tit
-	ena_rpob_98pid.fna
-	ena_rpob_98pid.ids
-	ena_rpob_98pid.log
-	ena_rpob_98pid.nhd
-	ena_rpob_98pid.nhi
-	ena_rpob_98pid.nhr
-	ena_rpob_98pid.nin
-	ena_rpob_98pid.nog
-	ena_rpob_98pid.nsd
-	ena_rpob_98pid.nsi
-	ena_rpob_98pid.nsq
-	ena_rpob_98pid.tit
-	lpsn_myco_uqid.fna
-	lpsn_myco_uqid.log
-	lpsn_myco_uqid.nhd
-	lpsn_myco_uqid.nhi
-	lpsn_myco_uqid.nhr
-	lpsn_myco_uqid.nin
-	lpsn_myco_uqid.nog
-	lpsn_myco_uqid.nsd
-	lpsn_myco_uqid.nsi
-	lpsn_myco_uqid.nsq
-	lpsn_myco_uqid.tit
+	+ 16SMicrobial_lpsnmyco_dr.fna
+	+ 16SMicrobial_lpsnmyco_dr.tit
+	+ 16SMicrobial_lpsnmyco_dr Blastdb
+	+ cultured_ABF_98piduniq.fna
+	+ cultured_ABF_98piduniq.tit
+	+ cultured_ABF_98piduniq Blastdb
+	+ ena_rpob_98pid.fna
+	+ ena_rpob_98pid.tit
+	+ ena_rpob_98pid Blastdb
+	+ lpsn_myco_uqid.fna
+	+ lpsn_myco_uqid.tit
+	+ lpsn_myco_uqid Blastdb
