@@ -1,4 +1,5 @@
-####000_sanger_seq2report.pl
+####16SrpoB 
+>is a small package that takes a given sanger sequenced 16S or rpoB bacterial gene sequences to classify through a phylogenetic by identifying 20 most closely related known characterized sequences in the databases. 000_sanger_seq2report.pl is the top level script that calls remaining dependencies, tools and scripts to perform thejob.
 #####Needs following dependencies to be installed before running the software
 ######1. ncbi-blast-2.2.29+
 	>+ should be available from /usr/local/bin
