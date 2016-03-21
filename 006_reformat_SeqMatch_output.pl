@@ -16,7 +16,7 @@ my $db16s = $ARGV[1];
 my $INPDB = "/home/shared/VIJAY/INPDB";
 my $TOOLS = "/home/shared/VIJAY/TOOLS";
 
-my $ncbi16s="$INPDB/16SMicrobial_lpsnmyco_dri.fna";
+my $ncbi16s="$INPDB/16SMicrobial_lpsnmyco_dr.fna";
 my $myco16s="$INPDB/lpsn_myco_uqid.fna";
 my $rpob = "$INPDB/ena_rpob_98pid.fna";
 my $rdp16s="$INPDB/cultured_ABF_98piduniq.fna";

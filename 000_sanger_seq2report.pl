@@ -25,7 +25,8 @@ my $INPDB="/home/shared/VIJAY/INPDB";
 my $CPD=`find ~/ -name "16SrpoB"`;	#Program Directory
 chomp($CPD);
 print "$CPD\n\n";
-
+my %repo=('rdp16s','16S','ncbi16s','16S','myco16s','16S','rpob','rpoB','ntogrb','rpoB');
+my %colo=('16S','green3','rpoB','blue');
 my $mf2sf = "perl $SHARED/f2f_multi_rec_seq_to_one_rec_seq.pl";
 my $ccw = "perl $SHARED/combine_two_files_column_wise.pl";
 my $sf2mf = "perl $SHARED/f2f_one_seq_rec_to_multiple_seq_rec.pl";
@@ -135,8 +136,8 @@ while (my $line=<RF>){
 =cut
 
 #	To create R_plotting script
-  my $report="16S";if ($db16s eq 'rpob'){$report = "rpoB";}
-  my $com008="sed 's/\$1/$line/g' $CPD/tree_and_seq_pdf.r | sed 's/\$2/$report/g' > $line\_tree_and_seq_pdf.r";
+  my $report = $repo{$db16s};my $color=$colo{$report};
+  my $com008="sed 's/\$1/$line/g' $CPD/tree_and_seq_pdf.r | sed 's/\$2/$report/g' | sed 's/COLOR/$color/' > $line\_tree_and_seq_pdf.r";
   print "$com008\n";system ($com008);
 
   my $com008b="chmod 0755 $line\_tree_and_seq_pdf.r";
